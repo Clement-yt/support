@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centre de Support - Feedback</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+    <div class="logo-group">
+        <img src="img/strata-logo-mono-ondark.svg" alt="Logo">
+        <span>Logo strata</span>
+    </div>
+    <div class="header-right">Centre de Support - Feedback</div>
+</header>
+
+<div class="main-content">
+    <h2>Rapport de Mission</h2>
+    <p class="subtitle">Aidez-nous à améliorer l'expérience utilisateur.</p>
+
+    <div class="form-card">
+        <form action="#" method="POST">
+            
+            <div class="input-group">
+                <label>Sujet du rapport</label>
+                <input type="text" placeholder="Ex: Problème d'affichage..." required>
+            </div>
+
+            <div class="input-group">
+                <label>Type de retour</label>
+                <select>
+                    <option value="bug">Bug / Erreur</option>
+                    <option value="idea">Suggestion</option>
+                </select>
+            </div>
+
+            <div class="input-group">
+                <label>Priorité</label>
+                <div class="radio-tiles">
+                    <label class="tile">
+                        <input type="radio" name="prio" checked>
+                        <span>Faible</span>
+                    </label>
+                    <label class="tile">
+                        <input type="radio" name="prio">
+                        <span>Critique</span>
+                    </label>
+                </div>
+            </div>
+
+            <div class="input-group">
+                <label>Description</label>
+                <textarea rows="4" placeholder="Détails..."></textarea>
+            </div>
+
+            <button type="submit" class="glow-button">Transmettre</button>
+        </form>
+    </div>
+</div>
+
+</body>
+</html>
